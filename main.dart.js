@@ -26943,7 +26943,7 @@ arJ(a){var s=0,r=A.O(t.yp),q,p,o,n
 var $async$arJ=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.R(A.aCV(A.eH("http://riotgames.pitmtech.com/api/v1/match/"+a,0,null),A.aD(["Accept","application/json"],p,p)),$async$arJ)
+return A.R(A.aCV(A.eH("https://riotgames.pitmtech.com/api/v1/match/"+a,0,null),A.aD(["Accept","application/json"],p,p)),$async$arJ)
 case 3:o=c
 n=o.b
 if(n===200){q=A.hK(B.bH.xk(A.avv(A.av9(o.e).c.a.h(0,"charset")).eA(o.w),null),!0,p)
@@ -26955,7 +26955,7 @@ arK(a){var s=0,r=A.O(t.a),q,p,o
 var $async$arK=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.R(A.aCV(A.eH("http://riotgames.pitmtech.com/api/v1/matchinfo/"+a,0,null),A.aD(["Accept","application/json"],p,p)),$async$arK)
+return A.R(A.aCV(A.eH("https://riotgames.pitmtech.com/api/v1/matchinfo/"+a,0,null),A.aD(["Accept","application/json"],p,p)),$async$arK)
 case 3:o=c
 p=o.b
 if(p===200){q=B.bH.xk(A.avv(A.av9(o.e).c.a.h(0,"charset")).eA(o.w),null)
